@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+.main-content{
+    padding:30px;
+}
+
+h1{
+    margin-bottom:25px;
+    color:#222;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+table th{
+    background:#2a5298;
+    color:white;
+    padding:14px;
+    text-align:left;
+}
+
+table td{
+    padding:14px;
+    border-bottom:1px solid #ddd;
+}
+
+.pending{
+    background:#ffe08a;
+    color:#8a5a00;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.resolved{
+    background:#b9f6ca;
+    color:#00695c;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.view-btn{
+    background:#2a5298;
+    color:white;
+    text-decoration:none;
+    padding:8px 14px;
+    border-radius:8px;
+}
+
+.report-box{
+    display:flex;
+    gap:25px;
+}
+
+.report-card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    width:250px;
+    text-align:center;
+}
+
+.report-card h2{
+    font-size:42px;
+    color:#2a5298;
+    margin-bottom:10px;
+}
+.review{
+    background:#cce5ff;
+    color:#004085;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.review-btn{
+    background:#007bff;
+    color:white;
+    padding:8px 14px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-right:5px;
+}
+
+.resolve-btn{
+    background:#28a745;
+    color:white;
+    padding:8px 14px;
+    border-radius:8px;
+    text-decoration:none;
+}
+.ai-btn{
+    background:#6f42c1;
+    color:white;
+    padding:8px 14px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-right:5px;
+}
